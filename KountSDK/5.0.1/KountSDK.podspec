@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Kount/kount-swift-cocoa-pods-source'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kount' => 'mobile.admin-appledeveloper@equifax.com' }
-  s.source           = { :git => 'https://github.com/Equifax/kount-swift-cocoa-pods-source.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Kount/kount-swift-cocoa-pods-source.git', :tag => s.version.to_s }
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.0'
   s.vendored_frameworks = 'xcframeworks/KountSDK.xcframework'
